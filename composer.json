@@ -1,0 +1,20 @@
+{
+    "name": "michaeljennings/errormanager",
+    "description": "A laravel 4 error manager package",
+    "authors": [
+        {
+            "name": "Michael Jennings",
+            "email": "michael.jennings91@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Michaeljennings\\ErrorManager\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
