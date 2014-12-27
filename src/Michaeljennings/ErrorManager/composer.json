@@ -1,0 +1,20 @@
+{
+    "name": "michaeljennings/errormanager",
+    "description": "",
+    "authors": [
+        {
+            "name": "Michael Jennings",
+            "email": "michael.jennings91@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Michaeljennings\\Errormanager": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
