@@ -17,7 +17,7 @@ class ErrorManagerServiceProvider extends ServiceProvider {
 		$this->app->after(function($request, $response)
 		{
 			if (!$this->app['error']->isEmpty()) {
-				\Session::flash('errorManager.errors', $this->app['error']->getErrors());
+				\Session::flash('errorManager.errors', $this->app['error']->errors());
 			}
 		});
 	}
